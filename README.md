@@ -1,2 +1,1 @@
-# etch-a-city
-Etch-a-City
+# Untopia
