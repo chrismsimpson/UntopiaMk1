@@ -1,1 +1,8 @@
-Build
+.DS_Store
+bin
+obj
+Data
+./Cache/
+Secrets
+Keys
+*.xcuserdatad

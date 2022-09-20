@@ -1,17 +1,28 @@
 {
     "version": "0.2.0",
-    "configurations": [       
+    "configurations": [
         {
-            "name": "untopia",
-            "type": "lldb",
+            "name": "Untopia",
+            "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Build/Untopia/untopia",
-            "args": [],
-            // "sourceMap": {
-            //     "./Build/Untopia/CMakeFiles/Untopia.dir" : "./Sources/Untopia"
-            // }
-            "cwd": "${workspaceFolder}"
-
+            "program": "${workspaceFolder}/Sources/Untopia/bin/Debug/net6.0/Untopia.dll",
+            "args": [
+                
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false,
+            "logging": {
+                "moduleLoad": false,
+                "engineLogging": false,
+                "elapsedTiming": false,
+                "exceptions": true,
+                "processExit": true,
+                "programOutput": true,
+                "threadExit": false
+            },
+            "requireExactSource": true
         }
     ]
 }
